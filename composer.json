@@ -1,0 +1,23 @@
+{
+  "name": "comwrap/msi-reservation",
+  "version": "1.0.0",
+  "description": "Module to align MSI reservation logic",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-inventory-api": "*",
+    "magento/module-inventory-catalog-api": "*",
+    "magento/module-inventory-source-deduction-api": "*"
+  },
+  "license": [
+    ""
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Comwrap\\InventoryReservationCleanUp\\": ""
+    }
+  }
+}
